@@ -22,10 +22,15 @@ bld/
 [Bb]in/
 [Oo]bj/
 
+<<<<<<< HEAD
 # Visual Studio 2015 cache/options directory
 .vs/
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
+=======
+# Visual Studo 2015 cache/options directory
+.vs/
+>>>>>>> 858f294facdd613c10e0170d3c4ee21fca8c0e73
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
@@ -40,10 +45,13 @@ TestResult.xml
 [Rr]eleasePS/
 dlldata.c
 
+<<<<<<< HEAD
 # DNX
 project.lock.json
 artifacts/
 
+=======
+>>>>>>> 858f294facdd613c10e0170d3c4ee21fca8c0e73
 *_i.c
 *_p.c
 *_i.h
@@ -84,7 +92,10 @@ ipch/
 *.psess
 *.vsp
 *.vspx
+<<<<<<< HEAD
 *.sap
+=======
+>>>>>>> 858f294facdd613c10e0170d3c4ee21fca8c0e73
 
 # TFS 2012 Local Workspace
 $tf/
@@ -97,7 +108,11 @@ _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
 
+<<<<<<< HEAD
 # JustCode is a .NET coding add-in
+=======
+# JustCode is a .NET coding addin-in
+>>>>>>> 858f294facdd613c10e0170d3c4ee21fca8c0e73
 .JustCode
 
 # TeamCity is a build add-in
@@ -109,7 +124,10 @@ _TeamCity*
 # NCrunch
 _NCrunch_*
 .*crunch*.local.xml
+<<<<<<< HEAD
 nCrunchTemp_*
+=======
+>>>>>>> 858f294facdd613c10e0170d3c4ee21fca8c0e73
 
 # MightyMoose
 *.mm.*
@@ -155,6 +173,7 @@ publish/
 csx/
 *.build.csdef
 
+<<<<<<< HEAD
 # Windows Azure Emulator
 efc/
 rfc/
@@ -169,6 +188,13 @@ AppPackages/
 !*.[Cc]ache/
 
 # Others
+=======
+# Windows Store app package directory
+AppPackages/
+
+# Others
+*.[Cc]ache
+>>>>>>> 858f294facdd613c10e0170d3c4ee21fca8c0e73
 ClientBin/
 [Ss]tyle[Cc]op.*
 ~$*
@@ -178,7 +204,11 @@ ClientBin/
 *.pfx
 *.publishsettings
 node_modules/
+<<<<<<< HEAD
 orleans.codegen.cs
+=======
+bower_components/
+>>>>>>> 858f294facdd613c10e0170d3c4ee21fca8c0e73
 
 # RIA/Silverlight projects
 Generated_Code/
@@ -203,9 +233,12 @@ UpgradeLog*.htm
 # Microsoft Fakes
 FakesAssemblies/
 
+<<<<<<< HEAD
 # GhostDoc plugin setting file
 *.GhostDoc.xml
 
+=======
+>>>>>>> 858f294facdd613c10e0170d3c4ee21fca8c0e73
 # Node.js Tools for Visual Studio
 .ntvs_analysis.dat
 
@@ -214,6 +247,7 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+<<<<<<< HEAD
 
 # Visual Studio LightSwitch build output
 **/*.HTMLClient/GeneratedArtifacts
@@ -228,3 +262,5 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+=======
+>>>>>>> 858f294facdd613c10e0170d3c4ee21fca8c0e73
