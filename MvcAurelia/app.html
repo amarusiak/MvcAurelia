@@ -1,0 +1,95 @@
+﻿<!--1
+    <template>
+    Aurelia has started
+</template>-->
+<!--2
+    <template>
+    <section>
+        <h2>${heading}</h2>
+
+        <form submit.delegate="submit()">
+            <div>
+                <label>First Name</label>
+                <input type="text" value.bind="firstName">
+            </div>
+            <div>
+                <label>Last Name</label>
+                <input type="text" value.bind="lastName">
+            </div>
+            <div>
+                <label>Full Name</label>
+                <p>${fullName}</p>
+            </div>
+            <button type="submit>Submit</button>
+        </form>
+    </section>
+</template>-->
+<!--3
+<template>
+    <section>
+        <h2>${heading}</h2>
+
+        <form role="form" validate.bind="validation">
+            <div class="form-group">
+              <label>First Name</label>
+              <input type="text" value.bind="firstName" class="form-control" >
+            </div>
+            <div class="form-group">
+                <label>Last Name</label>
+                <input type="text" value.bind="lastName" class="form-control" >
+            </div>
+        </form>
+
+
+        <form role="form" submit.delegate="submit()" validate.bind="validation" >
+            <div>
+                <label>First Name</label>
+                <input type="text" value.bind="firstName">
+            </div>
+            <div>
+                <label>Last Name</label>
+                <input type="text" value.bind="lastName">
+            </div>
+            <div>
+                <label>Full Name</label>
+                <p>${fullName}</p>
+            </div>
+            <button type="submit>Submit</button>
+        </form>
+    </section>
+</template>-->
+
+<template>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="Content/ErrorStyles.css" rel="stylesheet" />
+
+    <section>
+        <form role="form" submit.delegate="register()" validate.bind="validation">
+            <!--<form role="form" validate.bind="validation">-->
+            <div class="panel-heading">
+                <h3>Login Validation</h3>
+            </div>
+
+            <div class="panel-body">
+                <div class="form-group">
+                    <label>Login : </label>
+                    <input type="text" value.bind="login" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>Password : </label>
+                    <input type="password" value.bind="password" class="form-control">
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-default">Submit</button>
+
+        </form>
+        <p id="Message"> </p>
+    </section>
+</template>

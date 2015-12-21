@@ -1,0 +1,48 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Windows\system32>d:
+
+D:\>cd \IT Step\ASP\Sources\CLASS WORK\Work-days\2015-11-10\MvcAurelia\MvcAureli
+a
+
+D:\IT Step\ASP\Sources\CLASS WORK\Work-days\2015-11-10\MvcAurelia\MvcAurelia>jsp
+m install aurelia-validation
+
+warn Running jspm globally, it is advisable to locally install jspm via npm inst
+all jspm --save-dev.
+     Updating registry cache...
+     Looking up github:aurelia/validation
+     Downloading github:aurelia/validation@0.4.0
+     Looking up github:aurelia/dependency-injection
+     Looking up github:aurelia/templating
+     Looking up github:aurelia/logging
+     Looking up github:aurelia/metadata
+     Looking up github:aurelia/binding
+     Looking up npm:core-js
+     Looking up github:aurelia/pal
+     Looking up github:aurelia/path
+     Looking up github:aurelia/task-queue
+     Looking up github:aurelia/loader
+     Looking up github:systemjs/plugin-json
+     Looking up github:jspm/nodelibs-process
+     Looking up github:jspm/nodelibs-fs
+     Looking up npm:process
+     Looking up github:jspm/nodelibs-assert
+     Looking up npm:assert
+     Looking up npm:util
+     Looking up npm:inherits
+     Looking up github:jspm/nodelibs-util
+ok   Installed aurelia-validation as github:aurelia/validation@^0.4.0 (0.4.0)
+     Installed Forks
+
+                               npm:core-js 0.9.18 1.2.5
+
+     To inspect individual package constraints, use jspm inspect registry:name.
+
+
+ok   Install complete.
+
+D:\IT Step\ASP\Sources\CLASS WORK\Work-days\2015-11-10\MvcAurelia\MvcAurelia>jsp
+m install aurelia-validation
+
